@@ -1,0 +1,299 @@
+      /* 1.重置样式 */
+      body,ul{
+        margin: 0;
+        padding: 0;
+    }
+    ul {
+        list-style: none;
+    }
+    a {
+        color: #333333;
+        text-decoration: none;
+    }
+    /* 2.公共样式 */
+    .wrapper {
+        width: 1210px;
+        margin: 0 auto;
+        background-color: #ffffff;
+    }
+    .nav {
+        border-bottom: 1px solid #ededed;
+        box-shadow: 0 1px 5px #ededed;
+    }
+    /* 3.结构样式 */
+    /* 3.1第一行产品 */
+    .products {
+        background-color: #f4f4f4;
+    }
+    .products::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .products ul > li {
+        height: 350px;
+        width: 280px;
+        float: left;
+        margin-right: 30px;
+    }
+    .products ul > li:last-child {
+        margin: 0;
+    }
+    .products ul > li {
+        background-color: seagreen;
+    }
+    /* 3.2人气 */
+    .renqi {
+        margin-top: 30px;
+        background-color: #f4f4f4;
+    }
+    .renqi ul::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .renqi ul > li {
+        float: left;
+        margin-right: 30px;
+    }
+    .renqi ul > li {
+        width: 200px;
+        height: 250px;
+        background-color: plum;
+    }
+    .renqi ul > li:first-child {
+        width: 520px;
+        height: 530px;
+    }
+    .renqi ul > li:nth-child(4),
+    .renqi ul > li:nth-child(7) {
+        margin-right: 0;
+    }
+    .renqi ul > li:nth-child(2),
+    .renqi ul > li:nth-child(3),
+    .renqi ul > li:nth-child(4) {
+        margin-bottom: 30px;
+    }
+    /* 导航 */
+    .nav .top_nav::after {
+         content: "";
+        display: block;
+        clear: both;
+    }
+    .nav .top_nav li{
+        float: left;
+        width: 100px;
+        text-align: center;
+        line-height: 3em;
+        height: 3em;
+    }
+    .nav .top_nav li:hover{
+         border-bottom: 2px solid bisque;
+    }
+    .nav .top_nav li:hover a {
+         color: bisque;
+    }
+    .nav .top_nav li:hover .top_nav_sub {
+        display: block;
+    }
+    /* 福利社 */
+    .fuli {
+        margin-top: 30px;
+        background-color: #f4f4f4;
+    }
+    .fuli::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .fuli ul > li {
+        height: 350px;
+        width: 425px;
+        float: left;
+        margin-right: 30px;
+    }
+    .fuli ul > li:first-child {
+        width: 300px;
+    }
+    .fuli ul > li:last-child {
+        margin: 0;
+    }
+    .fuli ul > li {
+        background-color: seagreen;
+    }
+    /* 居家生活 */
+    .jujia {
+        margin-top: 30px;
+        background-color: #f4f4f4;
+    }
+    .jujia::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .jujia ul > li {
+        height: 350px;
+        width: 280px;
+        float: left;
+        margin-right: 30px;
+    }
+    .jujia ul > li:last-child {
+        margin: 0;
+    }
+    .jujia ul > li {
+        background-color: pink;
+    }
+    /* 服饰鞋包 */
+    .fushi {
+        margin-top: 30px;
+        background-color: #f4f4f4;
+    }
+    .fushi::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .fushi ul > li {
+        height: 350px;
+        width: 280px;
+        float: left;
+        margin-right: 30px;
+    }
+    .fushi ul > li:last-child {
+        margin: 0;
+    }
+    .fushi ul > li {
+        background-color: burlywood;
+    }
+    /* 美食酒水 */
+    .meishi {
+        margin-top: 30px;
+        background-color: #f4f4f4;
+    }
+    .meishi::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .meishi ul > li {
+        height: 350px;
+        width: 280px;
+        float: left;
+        margin-right: 30px;
+    }
+    .meishi ul > li:last-child {
+        margin: 0;
+    }
+    .meishi ul > li {
+        background-color: rgba(240, 207, 23, 0.6);
+    }
+    /* 个护清洁 */
+    .gehu {
+        margin-top: 30px;
+        background-color: #f4f4f4;
+    }
+    .gehu::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .gehu ul > li {
+        height: 350px;
+        width: 280px;
+        float: left;
+        margin-right: 30px;
+    }
+    .gehu ul > li:last-child {
+        margin: 0;
+    }
+    .gehu ul > li {
+        background-color: gray;
+    }
+    /* 母婴亲子 */
+    .muying {
+        margin-top: 30px;
+        background-color: #f4f4f4;
+    }
+    .muying::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .muying ul > li {
+        height: 350px;
+        width: 280px;
+        float: left;
+        margin-right: 30px;
+    }
+    .muying ul > li:last-child {
+        margin: 0;
+    }
+    .muying ul > li {
+        background-color: paleturquoise;
+    }
+    /* 运动旅行 */
+    .yundong {
+        margin-top: 30px;
+        background-color: #f4f4f4;
+    }
+    .yundong::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .yundong ul > li {
+        height: 350px;
+        width: 280px;
+        float: left;
+        margin-right: 30px;
+    }
+    .yundong ul > li:last-child {
+        margin: 0;
+    }
+    .yundong ul > li {
+        background-color: palegreen;
+    }
+    /* 数码家电 */
+    .shuma {
+        margin-top: 30px;
+        background-color: #f4f4f4;
+    }
+    .shuma::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .shuma ul > li {
+        height: 350px;
+        width: 280px;
+        float: left;
+        margin-right: 30px;
+    }
+    .shuma ul > li:last-child {
+        margin: 0;
+    }
+    .shuma ul > li {
+        background-color: orange;
+    }
+    /* 全球特色 */
+    .quanqiu {
+        margin-top: 30px;
+        background-color: #f4f4f4;
+    }
+    .quanqiu::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .quanqiu ul > li {
+        height: 350px;
+        width: 280px;
+        float: left;
+        margin-right: 30px;
+    }
+    .quanqiu ul > li:last-child {
+        margin: 0;
+    }
+    .quanqiu ul > li {
+        background-color: cornflowerblue;
+    }
