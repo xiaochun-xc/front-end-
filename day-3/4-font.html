@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图标字体库</title>
+    <style>
+        /*1.声明自定义字体库为iconfont*/
+        @font-face {
+  font-family: 'iconfont';  /* project id 1743365 */
+  src: url('https://at.alicdn.com/t/font_1743365_d5f9ju98nbf.eot');
+  src: url('https://at.alicdn.com/t/font_1743365_d5f9ju98nbf.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1743365_d5f9ju98nbf.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1743365_d5f9ju98nbf.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1743365_d5f9ju98nbf.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1743365_d5f9ju98nbf.svg#iconfont') format('svg');
+}
+        /* 2.使用声明好的字体库*/
+        .iconfont {
+            font-family: iconfont;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <div style="font-family: 宋体;">
+        你好世界
+    </div>
+    <div style="font-family: iconfont;">
+        &#xe6a4;
+    </div>
+    <ul>
+        <li><i class="iconfont">&#xe6a2;<span>首页</span></i></li>
+        <li><i class="iconfont">&#xe6a5;<span>列表</span></i></li>
+        <li><i class="iconfont"></i></li>
+    </ul>
+
+    <ul class="department">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+</html>

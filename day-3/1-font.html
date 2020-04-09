@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字体</title>
+    <style>
+        .one {
+            font:bold italic 20px/2em '宋体','微软雅黑'
+        }
+        .two {
+            font:18px "Microsoft YaHei"
+        }
+        .four {
+            font-size: 16px;
+            color: white;
+            background-color: cadetblue;
+            /* height: 100px; */
+            line-height: 100px;
+            overflow: scroll; /*设置滚动条*/
+            text-indent: 2em;
+        }
+        .btn {
+            border: 1px solid red;
+            display: inline-block;
+            border-radius: 5px;
+            padding: .5em .3em;
+        }
+        .btn-large {
+            font-size: 18px;
+            /* padding: 10px 6px; */
+        }
+        .btn-small {
+            font-size: 12px;
+            /* padding: 5px 3px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="btn-large">大按钮</div>
+    <div class="btn-small">小按钮</div>
+
+    <div class="four">
+        这是第四块代码
+    </div>
+
+    <div style="font-size: 16px;">
+        <span>one</span>
+        <div>
+            <span>two</span>
+        </div>
+    </div>
+
+    <h1>我是一级标题</h1>
+    <div class="one">这是第一个盒子 class is one</div>
+    <div class="two">这是第二个盒子 class is two</div>
+    <div class="three"><strong>这是第三个盒子</strong></div>
+</body>
+</html>
