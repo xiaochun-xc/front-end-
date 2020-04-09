@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网易严选</title>
+    <style>
+        /* 1.重置样式 */
+        body,ul{
+            margin: 0;
+        }
+        /* 2.公共样式 */
+        .wrapper {
+            width: 1210px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+        /* 3.结构样式 */
+        .products {
+            background-color: #f4f4f4;
+        }
+        .products::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .products ul > li {
+            height: 350px;
+            width: 280px;
+            float: left;
+            margin: 30px;
+        }
+        .products ul > li:last-child {
+            margin: 0;
+        }
+        .products ul > li {
+            background-color: seagreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="products">
+        <div class="wrapper">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
