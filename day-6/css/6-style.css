@@ -1,0 +1,139 @@
+html {
+  font-size: 38px;
+}
+.content {
+  background-color: #f4f4f4;
+  height: 5000px;
+}
+/* 底部导航 */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 1.30667rem;
+  background-color: #ffffff;
+}
+.footer > ul {
+  height: 100%;
+  display: flex;
+  padding: .5em;
+}
+.footer > ul > li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.footer > ul > li.current{
+  color:#DD1A21
+}
+.footer > ul > li .iconfont {
+  font-size: 18px;
+}
+
+/* 顶部 */
+.header {
+  position: fixed;
+  height: 68px;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #efefef;
+}
+.search_bar {
+  padding:.5em 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search_bar > .logo{
+  width: 2rem;
+  font-size: 16px;
+  font-family: '宋体';
+}
+.search_bar > .search_box{
+  flex-grow: 1;
+  background-color: #ededed;
+  border-radius: 3px;
+  padding:.5em 1em;
+
+}
+.search_bar > .search_box input {
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+.search_bar > .btn_login{
+  width: 1rem;
+  text-align: center;
+  border: 1px solid #DD1A21;
+  color: #DD1A21;
+  border-radius: 3px;
+  margin-left: .5em;
+  line-height: 1.5em;
+  height: 1.5em;
+}
+
+.nav_wrapper {
+  position: relative;
+}
+.nav_wrapper > .nav {
+  flex-grow: 1;
+  overflow: hidden;
+  margin-right: 2.5rem;
+}
+.nav_wrapper > .nav > ul {
+  width: 1600px;
+}
+.nav_wrapper > .nav > ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.nav_wrapper > .nav > ul > li {
+  float: left;
+  padding: 0 1.3em;
+}
+.nav_wrapper >.toggle {
+  width: 2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ffffff;
+}
+/* content */
+/* 轮播图 */
+.content img {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+/* 小字 */
+.content .xiaozi {
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+.content .xiaozi ul {
+  display: flex;
+}
+.content .xiaozi ul li {
+  flex-grow: 1;
+  display: block;
+}
+/* 目录 */
+.content .mulu ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content .mulu ul li {
+  width: 19%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+  text-align: center;
+}
+.content .mulu ul li img {
+  height: auto;
+  /* width: 50px; */
+  margin-top: 0;
+}
