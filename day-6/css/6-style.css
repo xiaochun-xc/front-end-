@@ -134,6 +134,131 @@ html {
 }
 .content .mulu ul li img {
   height: auto;
-  /* width: 50px; */
   margin-top: 0;
+}
+.content .xingren {
+  margin-top: 10px;
+}
+.content .xingren img{
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+}
+.content .fuli ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.content .fuli ul li {
+  width: 48%;
+  margin: 1%;
+}
+.content .fuli ul li img {
+  height: auto;
+  margin-top: 0;
+}
+
+/*新人专享礼*/
+.xinren {
+  text-align: center;
+  width: 98%;
+  margin: 10px auto;
+}
+
+.xinren > .xinren_content1 {
+  margin-bottom: 10px;
+}
+.xinren .xinren_content2 ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.xinren .xinren_content2 ul {
+  display: flex;
+}
+.xinren .xinren_content2 li{
+  width: 49%;
+}
+.xinren .xinren_content2 li:first-child {
+  background-color: #f9e9cf;
+}
+.xinren .xinren_content2 li:first-child {
+  margin-right: 2%;
+}
+
+.xinren .xinren_content2 li:first-child img {
+  width: 70%;
+  height: auto;
+  margin-top: 50px auto;
+}
+.xinren .xinren_content2 li:first-child div {
+  margin: 10px 0;
+}
+.xinren .xinren_content2 li:last-child img {
+  width: 100%;
+  height: auto;
+}
+.xinren .xinren_content2 li:last-child >div {
+  display: flex;
+  align-items: center;
+  height: 49%;
+}
+.xinren .xinren_content2 li:last-child >div:first-child{
+  margin-bottom: 2%;
+}
+
+.xinren .xinren_content2 li:last-child >div >div {
+  flex-grow: 1;
+  width: 50%;
+}
+
+.xinren .xinren_content2 li:last-child >div:first-child {
+  background-color: #fbe2d3;
+}
+.xinren .xinren_content2 li:last-child >div:last-child {
+  background-color: #ffecc2;
+}
+/* 类目热销榜 */
+.rexiao .rexiao_header {
+  margin:10px auto 10px 10px;
+}
+.rexiao .rexiao_content1 {
+  display: flex;
+}
+
+.rexiao .rexiao_content1 >div {
+  width: 48%;
+  margin: 10px 1%;
+  display: flex;
+  align-items: center;
+}
+.rexiao .rexiao_content1 >div:first-child {
+  background-color: wheat;
+}
+.rexiao .rexiao_content1 >div:last-child {
+  background-color: #ebeff6;
+}
+.rexiao .rexiao_content1 >div div {
+  width: 30%;
+  padding-left: 10px;
+}
+.rexiao .rexiao_content1 >div img {
+  width:70%;
+  height: auto;
+}
+.rexiao .rexiao_content2 ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.rexiao .rexiao_content2 ul >li {
+  width: 23%;
+  margin: 10px 1%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.rexiao .rexiao_content2 ul >li img {
+  width: 100%;
+  height: auto;
 }
